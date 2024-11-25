@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "dev": "deno run --watch --allow-net main.ts",
+    "server": "deno run --allow-net main.ts broadcast-server start",
+    "client": "deno run --allow-net main.ts broadcast-server connect "
+  },
+  "imports": {
+    "@std/assert": "jsr:@std/assert@1"
+  }
+}
